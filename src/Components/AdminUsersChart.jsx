@@ -20,7 +20,7 @@ const AdminUsersChart = () => {
               },
               stroke: {
                 curve: 'straight',
-                colors: ['rgb(243, 255, 68)'], 
+                colors: ['rgb(243, 255, 70)'], 
               },
               title: {
                 text: 'Users Log Chart for Month',
@@ -33,9 +33,17 @@ const AdminUsersChart = () => {
                   opacity: 0.5
                 },
               },
-              xaxis: {
-                categories: [],
-              }
+            xaxis: {
+      categories: [],
+      labels: {
+        style: {
+          colors: '#ecffb7', 
+          fontSize: '12px',
+          fontFamily: 'Arial, sans-serif',
+          fontWeight: 400,
+        }
+      }
+    },
             },
         });
       
