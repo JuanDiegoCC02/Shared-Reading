@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import '../Styles/StyleFormLogIn.css'
 import llamadoServicios from '../Services/llamados'
 import ModalError from './Modals/ModalError';
+import { useCookies } from 'react-cookie';
 
 
 
@@ -12,6 +13,7 @@ function FormLogIn() {
     const [Password, setPassword]=useState("")
     const [Profiles, setProfiles]=useState([])
     const Navigate = useNavigate ()
+    const [cookies, setCookie] =useCookies(["user"])
 
 
     useEffect(()=>{
@@ -31,15 +33,21 @@ function FormLogIn() {
     }
     function enter() {
         const found = Profiles.find(Profiler => Profiler.nombre===Username && Profiler.password===Password)
-        
+        const cookieOptions = {path: "/", maxAge: 864000};
+
         if (found && found.typeUser === "admin") {
             
             localStorage.setItem("nombreUsuario",found.nombre)
             localStorage.setItem("correoUsuario",found.email)
             localStorage.setItem("idUsuario",found.id)
             localStorage.setItem("typeUser",found.typeUser)
-
             
+            
+            setCookie("nombreUsuario",found.nombre, cookieOptions)
+            setCookie("correoUsuario",found.email, cookieOptions)
+            setCookie("idUsuario",found.id, cookieOptions)
+            setCookie("typeUser",found.typeUser, cookieOptions)
+            console.log("Document Cookie actual:", document.cookie); // Esto debería mostrar tus cookies en texto plano
 
             Navigate('/')
         }else if (found && found.typeUser === "User") {
@@ -48,6 +56,12 @@ function FormLogIn() {
             localStorage.setItem("correoUsuario",found.email)
             localStorage.setItem("idUsuario",found.id)        
             localStorage.setItem("typeUser",found.typeUser)
+
+            setCookie("nombreUsuario",found.nombre, cookieOptions)
+            setCookie("correoUsuario",found.email, cookieOptions)
+            setCookie("idUsuario",found.id, cookieOptions)
+            setCookie("typeUser",found.typeUser, cookieOptions)
+
             console.log(Username, Password)
         }
         else {

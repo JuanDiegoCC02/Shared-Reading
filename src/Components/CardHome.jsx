@@ -36,7 +36,7 @@ function CardHome() {
         {books
         .filter((libro)=> libro.statusFront===true)
         .map ((libro,index)=>(
-        <li className='LiHome'>
+        <li key={libro.id || index} className='LiHome'>
 
           <div className='containerImgHomeBook'>
             <img className='ImgofBookHome' src={libro.img} alt="BookImg" srcset="" />
