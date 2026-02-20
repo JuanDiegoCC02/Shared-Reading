@@ -1,9 +1,9 @@
 import React, {useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
+import { useCookies } from 'react-cookie';
 import '../Styles/StyleFormLogIn.css'
 import llamadoServicios from '../Services/llamados'
 import ModalError from './Modals/ModalError';
-import { useCookies } from 'react-cookie';
 
 
 
@@ -12,8 +12,9 @@ function FormLogIn() {
     const [Username, setUsername]=useState("")
     const [Password, setPassword]=useState("")
     const [Profiles, setProfiles]=useState([])
+     const [cookies, setCookie] =useCookies(["user"])
     const Navigate = useNavigate ()
-    const [cookies, setCookie] =useCookies(["user"])
+   
 
 
     useEffect(()=>{
@@ -47,7 +48,7 @@ function FormLogIn() {
             setCookie("correoUsuario",found.email, cookieOptions)
             setCookie("idUsuario",found.id, cookieOptions)
             setCookie("typeUser",found.typeUser, cookieOptions)
-            console.log("Document Cookie actual:", document.cookie); // Esto debería mostrar tus cookies en texto plano
+            console.log("Document Cookie actual:", document.cookie); // show cookies  "texto plano"
 
             Navigate('/')
         }else if (found && found.typeUser === "User") {

@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-     <CookiesProvider> {/* 2. Envuelves el contenido */}
+     <CookiesProvider>
         <div>
           <Routing/>
         </div>
