@@ -1,7 +1,7 @@
 Web Site Shared Reading 
 
 -->Description:
-  Shared Reading is a collaborative reading project that allows multiple users to share the experience of exchanging books. Its main objective is to facilitate the reuse of books, not only by reading and preserving them, but also by ensuring that the book reaches another person, thus promoting reading among different users.
+  Shared Reading is a collaborative reading project that allows multiple users to share the experience of exchanging books. Its main objective is to facilitate the reuse of books, not only by reading and preserving them, but also by ensuring that the book reaches another person, thus promoting reading among different users. <BR>
   This web platform is developed with React as the frontend interface framework, and for the backend, I created a simulation using json-server and db.json.
 <HR>
 
@@ -16,45 +16,45 @@ Web Site Shared Reading
 <HR>
 
 -->Technologies:
-- Languages:
-  -HTML5: Structure 
-  -CSS3: Visual design.
-  -JavaScript: Programming logic.
+- Languages: <BR>
+  -HTML5: Structure  <BR>
+  -CSS3: Visual design. <BR>
+  -JavaScript: Programming logic. <BR>
 
-- Frameworks & Libraries:
-  -React: Main library for the user interface.
-  -React Router: Library for managing navigation and URL routes.
-  -ApexCharts: Library for data visualization and interactive charts.
+- Frameworks & Libraries: <BR>
+  -React: Main library for the user interface. <BR>
+  -React Router: Library for managing navigation and URL routes. <BR>
+  -ApexCharts: Library for data visualization and interactive charts. <BR>
 
-- Backend & Storage: Data storage and synchronization.
-  -JSON Server: Mock backend to simulate a REST API.
-  -db.json: Document database for project prototyping.
-  -Local Storage & Cookies: Data storage and session management in the browser.
+- Backend & Storage: Data storage and synchronization. <BR>
+  -JSON Server: Mock backend to simulate a REST API. <BR>
+  -db.json: Document database for project prototyping. <BR>
+  -Local Storage & Cookies: Data storage and session management in the browser. <BR>
 
-- Development Tools:
-  -VS Code: Main code editor.
-  -GitHub: Version control and code hosting.
+- Development Tools: <BR>
+  -VS Code: Main code editor. <BR>
+  -GitHub: Version control and code hosting. <BR>
 
-- Design & Collaboration:
-  -Figma: User interface (UI/UX) design tools.
-  -Trello: Project and task management using Agile methodologies.
-  -Slack: Team communication and collaboration.
+- Design & Collaboration: <BR>
+  -Figma: User interface (UI/UX) design tools. <BR>
+  -Trello: Project and task management using Agile methodologies. <BR>
+  -Slack: Team communication and collaboration. <BR>
 <HR>
 
 -->Installation:
-//"clone the repository"
-git clone https://github.com/JuanDiegoCC02/Shared-Reading.git
-cd Shared-Reading
-//"package installations"
-npm install
-//"start website"
-npm run dev
-npm run backend
+//"clone the repository" <BR>
+git clone https://github.com/JuanDiegoCC02/Shared-Reading.git <BR>
+cd Shared-Reading <BR>
+//"package installations" <BR>
+npm install <BR>
+//"start website" <BR>
+npm run dev <BR>
+npm run backend <BR>
 <HR>
 
--->Credits
-Final Project Front-End
-Title: Shared Reading
-Author: Juan Diego Corella Camacho 
-Tutores: Jean Carlos Barbarena & Barry Vega
+-->Credits <BR>
+Final Project Front-End <BR>
+Title: Shared Reading <BR>
+Author: Juan Diego Corella Camacho  <BR>
+Tutores: Jean Carlos Barbarena & Barry Vega <BR>
 
