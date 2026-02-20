@@ -41,7 +41,7 @@ Web Site Shared Reading
   -Slack: Team communication and collaboration. <BR>
 <HR>
 
--->Installation:
+-->Installation: <BR>
 //"clone the repository" <BR>
 git clone https://github.com/JuanDiegoCC02/Shared-Reading.git <BR>
 cd Shared-Reading <BR>
