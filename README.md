@@ -1,11 +1,11 @@
 Web Site Shared Reading 
 
--->Description:
-  Shared Reading is a collaborative reading project that allows multiple users to share the experience of exchanging books. Its main objective is to facilitate the reuse of books, not only by reading and preserving them, but also by ensuring that the book reaches another person, thus promoting reading among different users. <BR>
-  This web platform is developed with React as the frontend interface framework, and for the backend, I created a simulation using json-server and db.json.
+-->Description: <BR>
+  - Shared Reading is a collaborative reading project that allows multiple users to share the experience of exchanging books. Its main objective is to facilitate the reuse of books, not only by reading and preserving them, but also by ensuring that the book reaches another person, thus promoting reading among different users. <BR>
+  - This web platform is developed with React as the frontend interface framework, and for the backend, I created a simulation using json-server and db.json.
 <HR>
 
--->Features:
+-->Features: <BR>
   - Dynamic Inventory Management (CRUD): A complete system for creating, reading, updating, and deleting books or users in real time, synchronized with a dynamic database (db.json).
   - Data Visualization Panel: Use of ApexCharts to transform flat data into interactive charts that display reading statistics for books or users.
   - Advanced Form Management: Validated forms for user registration and book uploads, ensuring data integrity before sending it to the server.
@@ -38,23 +38,23 @@ Web Site Shared Reading
 - Design & Collaboration: <BR>
   -Figma: User interface (UI/UX) design tools. <BR>
   -Trello: Project and task management using Agile methodologies. <BR>
-  -Slack: Team communication and collaboration. <BR>
+  -Slack: Team communication and collaboration. 
 <HR>
 
 -->Installation: <BR>
 //"clone the repository" <BR>
-git clone https://github.com/JuanDiegoCC02/Shared-Reading.git <BR>
-cd Shared-Reading <BR>
+- git clone https://github.com/JuanDiegoCC02/Shared-Reading.git <BR>
+- cd Shared-Reading <BR>
 //"package installations" <BR>
-npm install <BR>
+- npm install <BR>
 //"start website" <BR>
-npm run dev <BR>
-npm run backend <BR>
+- npm run dev <BR>
+- npm run backend 
 <HR>
 
 -->Credits <BR>
-Final Project Front-End <BR>
-Title: Shared Reading <BR>
-Author: Juan Diego Corella Camacho  <BR>
-Tutores: Jean Carlos Barbarena & Barry Vega <BR>
+- Final Project Front-End <BR>
+- Title: Shared Reading <BR>
+- Author: Juan Diego Corella Camacho  <BR>
+- Tutores: Jean Carlos Barbarena & Barry Vega <BR>
 
