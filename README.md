@@ -52,7 +52,7 @@
 - npm run backend 
 <HR>
 
--->Credits <BR>
+# 🧑‍💻 Credits:
 - Final Project Front-End <BR>
 - Title: Shared Reading <BR>
 - Author: Juan Diego Corella Camacho  <BR>
