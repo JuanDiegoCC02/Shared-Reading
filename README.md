@@ -1,6 +1,5 @@
 # 🌐 Shared Reading 
 
--->Description: <BR>
   - Shared Reading is a collaborative reading project that allows multiple users to share the experience of exchanging books. Its main objective is to facilitate the reuse of books, not only by reading and preserving them, but also by ensuring that the book reaches another person, thus promoting reading among different users. <BR>
   - This web platform is developed with React as the frontend interface framework, and for the backend, I created a simulation using json-server and db.json.
 <HR>
@@ -42,8 +41,7 @@
 <HR>
 
 # 🔧 Installation:
-
- //"clone the repository" <BR>
+   //"clone the repository" <BR>
 - git clone https://github.com/JuanDiegoCC02/Shared-Reading.git <BR>
 - cd Shared-Reading <BR>
  //"package installations" <BR>
