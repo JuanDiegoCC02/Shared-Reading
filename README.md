@@ -5,7 +5,7 @@
   - This web platform is developed with React as the frontend interface framework, and for the backend, I created a simulation using json-server and db.json.
 <HR>
 
--->Features: <BR>
+# 🗂️ Features:
   - Dynamic Inventory Management (CRUD): A complete system for creating, reading, updating, and deleting books or users in real time, synchronized with a dynamic database (db.json).
   - Data Visualization Panel: Use of ApexCharts to transform flat data into interactive charts that display reading statistics for books or users.
   - Advanced Form Management: Validated forms for user registration and book uploads, ensuring data integrity before sending it to the server.
