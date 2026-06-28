@@ -41,7 +41,7 @@
   -Slack: Team communication and collaboration. 
 <HR>
 
--->Installation: <BR>
+# 🔧 Installation:
 //"clone the repository" <BR>
 - git clone https://github.com/JuanDiegoCC02/Shared-Reading.git <BR>
 - cd Shared-Reading <BR>
