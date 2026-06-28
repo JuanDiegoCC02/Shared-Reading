@@ -15,7 +15,7 @@
   - Responsive Design: An adaptable interface that ensures smooth navigation on both computers and mobile devices.
 <HR>
 
--->Technologies:
+# 🏗️ Technologies:
 - Languages: <BR>
   -HTML5: Structure  <BR>
   -CSS3: Visual design. <BR>
