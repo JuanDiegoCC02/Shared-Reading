@@ -4,7 +4,7 @@
 
 ---
 
-# 🗂️ Features:
+# 🗂️ Features
   - Dynamic Inventory Management (CRUD): A complete system for creating, reading, updating, and deleting books or users in real time, synchronized with a dynamic database (db.json).
   - Data Visualization Panel: Use of ApexCharts to transform flat data into interactive charts that display reading statistics for books or users.
   - Advanced Form Management: Validated forms for user registration and book uploads, ensuring data integrity before sending it to the server.
@@ -15,7 +15,7 @@
 
 ---
 
-# 🏗️ Technologies:
+# 🏗️ Technologies
 - Languages: <BR>
   -HTML5: Structure  <BR>
   -CSS3: Visual design. <BR>
@@ -42,7 +42,7 @@
 
 ---
 
-# 🔧 Installation:
+# 🔧 Installation
 - "clone the repository" <BR>
   -git clone https://github.com/JuanDiegoCC02/Shared-Reading.git <BR>
   -cd Shared-Reading <BR>
@@ -54,7 +54,7 @@
 
 ---
 
-# 🧑‍💻 Credits:
+# 🧑‍💻 Credits
 - Final Project Front-End <BR>
 - Title: Shared Reading <BR>
 - Author: Juan Diego Corella Camacho  <BR>
