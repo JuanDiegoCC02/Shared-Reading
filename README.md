@@ -41,12 +41,12 @@
 <HR>
 
 # 🔧 Installation:
- ="clone the repository" <BR>
+-"clone the repository" <BR>
 - git clone https://github.com/JuanDiegoCC02/Shared-Reading.git <BR>
 - cd Shared-Reading <BR>
- ="package installations" <BR>
+-"package installations" <BR>
 - npm install <BR>
- ="start website" <BR>
+-"start website" <BR>
 - npm run dev <BR>
 - npm run backend 
 <HR>
