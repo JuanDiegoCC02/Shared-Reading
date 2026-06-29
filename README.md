@@ -28,7 +28,7 @@
 
 - Backend & Storage: Data storage and synchronization <BR>
   -JSON Server: Mock backend to simulate a REST API. <BR>
-  -db.json: Document database for project prototyping. <BR>
+  -DB.Json: Document database for project prototyping. <BR>
   -Local Storage & Cookies: Data storage and session management in the browser. <BR>
 
 - Development Tools <BR>
